@@ -343,12 +343,19 @@ header{
         top: 95px;
         margin-left: 0px;
     }
+    .circle-img {
+        width: 350px;
+        height: 350px;
+        margin-left: 0px;
+        opacity: 0.75;
+    }
     .left-influencer{
         position: absolute;
-        width: 450px;
+        width: 350px;
         height: 222px;
         text-align: center;
         top: 352px;
+        margin-right: 0px;
     }
     .left-influencer h2{
         font-family: Poppins;
@@ -356,16 +363,15 @@ header{
         font-size: 28px;
         line-height: 42px;   
     }
-    .logos-section{
-        width: 275.21px;
-        height: 61.46px;
-        
-    }
     .logo-svg{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         align-items: center;
         padding: 40px 0px;
+    }
+    .logos-section{
+        width:350px;
+        
     }
     .logo{
         margin-bottom: 15px;
@@ -386,5 +392,13 @@ header{
         grid-template-columns: 100%;
         margin-top:53px;
         margin-bottom:53px;
+    }
+    .fade-line {
+        height: 1px;
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        background-image: -webkit-linear-gradient(left , white 2%, #c9c9c9 50%, white 98%);
+        
     }
 }
